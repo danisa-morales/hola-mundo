@@ -64,3 +64,28 @@ print(f'la resta de los números es: {aritmetica1.resta()}')
 print(f'La multiplicación de los números es: {aritmetica1.multiplicar()}')
 print(f'La división de los números es: {aritmetica1.dividir():.2f}')
 # ------------------------------------
+
+
+# Facundo Pereyra 
+
+
+class Persona:  # Esta clase hereda de la clase Object
+    def __init__(self, nombre, edad):
+        self._nombre = nombre
+        self._edad = edad
+
+    @property
+    def nombre(self):
+        return self._nombre
+
+    @nombre.setter
+    def nombre(self, nombre):
+        self._nombre = nombre
+
+    @property
+    def edad(self):
+        return self._edad
+
+    @edad.setter
+    def edad(self, edad):
+        self._edad = edad
