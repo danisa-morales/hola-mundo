@@ -89,3 +89,7 @@ class Persona:  # Esta clase hereda de la clase Object
     @edad.setter
     def edad(self, edad):
         self._edad = edad
+# MORALES CASTRO DANISA
+
+
+#---------------------------------------
